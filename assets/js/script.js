@@ -41,11 +41,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "SoftIdeal";
+            document.title = "IdealizaSoft";
             $("#favicon").attr("href", "assets/images/logoS.png");
         }
         else {
-            document.title = "SoftIdeal";
+            document.title = "IdealizaSoft";
             $("#favicon").attr("href", "assets/images/logoS.png");
         }
     });
@@ -173,3 +173,7 @@ srtop.reveal('.work .box', { interval: 200 });
 /* SCROLL EXPERIENCE */
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
+
+srtop.reveal('.conteudo', { delay: 400 });
+srtop.reveal('.conteudo', { interval: 400 });
+
